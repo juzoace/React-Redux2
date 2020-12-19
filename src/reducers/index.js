@@ -1,10 +1,10 @@
-import currentUser from './currentUser'
 import counter from './counter'
+import multiply from './multiply'
 import {combineReducers} from 'redux'
 
 const rootReducer = combineReducers({
-    currentUser,
-    counter
+    counter,
+    multiply
 })
 
 export default rootReducer

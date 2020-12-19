@@ -1,9 +1,8 @@
 import counterActions from './counterActions'
-import userActions from './userActions'
-
+import * as  multiplyActions from './multiplyActions'
 const allActions = {
     counterActions,
-    userActions
+    multiplyActions
 }
 
 export default allActions
